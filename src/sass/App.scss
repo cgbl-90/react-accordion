@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100px;
+  place-items: center;
+}
+
+a,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  height: 70px;
+}
+
+main {
+  min-height: 70vh;
+  box-shadow: 1px 2px 8px grey;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(44, 9, 121, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  section {
+    width: 900px;
+  }
+}
+
+button {
+  color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: transparent;
+}
